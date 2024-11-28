@@ -7,6 +7,7 @@ from app import app
 from models import db, Pet
 
 with app.app_context():
+    
 
     # Create and initialize a faker generator
     fake = Faker()
